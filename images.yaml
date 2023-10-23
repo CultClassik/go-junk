@@ -1,0 +1,21 @@
+# images:
+targets:
+  - ghcr.io/open-telemetry/opentelemetry-collector-releases/opentelemetry-collector-contrib
+
+images:
+  - name: ghcr.io/open-telemetry/opentelemetry-collector-releases/opentelemetry-collector-contrib
+    tags:
+      - "0.86.0"
+      - "0.83.0"
+
+  # - name: opentelemetry-collector-contrib
+  #   repo: ghcr.io/open-telemetry/opentelemetry-collector-releases
+  #   tags:
+  #     - "0.86.0"
+  #     - "0.83.0"
+
+  # - name: mycoolimage
+  #   repo: docker.io/diehl
+  #   tags:
+  #     - "1.0.0"
+  #     - "2.1.0"
